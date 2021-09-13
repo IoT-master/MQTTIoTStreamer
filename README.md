@@ -171,6 +171,27 @@ where host is your IPaddress, -p is your port (8883), user is your username, pas
  - [x] Subscriber(s) Enrolled to a Topic
  - [x] Publisher(s) Sending Message(s)
 
+## Running Pub/Sub in Python
+
+---
+
+Create a file called mqtt_account.py inside the Confidential folder. Inside this folder, add the following data, and change it for your settings
+
+```
+user = '<user>'
+password = '<password>'
+broker = '<hostname>'
+port = 8883
+```
+
+`pip install -r requirements.txt`
+
+`python my_subscriber.py`
+
+`python my_publisher.py`
+
+---
+
 Installing on a Raspberry Pi,
 *Credit to the following sites*
 
